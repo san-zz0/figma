@@ -16,6 +16,8 @@ import p10 from "./images/collections/product (10).png";
 import exchange_icon from "./images/exchange_icon.svg";
 import quality_icon from "./images/quality_icon.svg";
 import support_icon from "./images/support_icon.svg";
+import star from "./images/star.svg";
+import star_dull from "./images/star_dull.svg";
 
 export const images = {
   header_img,
@@ -26,6 +28,8 @@ export const images = {
   exchange_icon,
   quality_icon,
   support_icon,
+  star,
+  star_dull,
 };
 
 export const products = [
@@ -77,7 +81,18 @@ export const products = [
     price: "$149",
     image: p7,
     best_seller: false,
+    images: [p7, p7, p7, p7],
+    stars: 4,
+    short_description:
+      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+    size: ["s", "m", "l", "xl", "xxl"],
+    cashOnDelivery: true,
+    returnProduct: true,
+    long_description:
+      "An e-commerce website is an online platform that facilitates the buying and selling of products or services over the internet. It serves as a virtual marketplace where businesses and individuals can showcase their products, interact with customers, and conduct transactions without the need for a physical presence. E-commerce websites have gained immense popularity due to their convenience, accessibility, and the global reach they offer.",
+    reviews: [],
   },
+
   {
     id: 8,
     name: "Men Round Neck Pure Cotton T-shirt",
